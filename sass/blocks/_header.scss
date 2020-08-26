@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+  position: relative;
+
+  .header__logo {
+    position: absolute;
+    left: 180px;
+    bottom: 13px;
+
+    @media (max-width:1650px) {
+      display: none;
+    }
+
+    @media (max-width:768px) {
+      display: block;
+      left: 15px;
+      top: 29px;
+    }
+  }
+
+  @media (max-width:768px) {
+    padding-top: 32px;
+  }
+}

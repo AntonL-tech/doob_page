@@ -1,0 +1,58 @@
+@import "vars";
+
+
+/* Default styles */
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+
+/* Blocks */
+
+@import 'blocks/_header';
+@import 'blocks/_main';
+@import 'blocks/_nav';
+@import 'blocks/_portfolio';
+@import 'blocks/_contact';
+@import 'blocks/_footer';
+@import 'blocks/_burger';
+@import 'blocks/_modal';
+
+
+
+/* Helpers */
+
+@import 'blocks/_helpers';

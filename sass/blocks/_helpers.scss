@@ -1,0 +1,104 @@
+.contact-us__btn {
+  display: inline-block;
+  background: url('../img/Arrow.png') no-repeat;
+  background-position-y: 25px;
+  background-position-x: 137px;
+  border: none;
+  color: #ff3946;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20.76px;
+  letter-spacing: 0.18px;
+  padding: 21px 68px 28px 34px;
+  box-shadow: 0 5px 10px rgba(25, 45, 51, 0.15);
+  margin-left: 48px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.more-btn {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-right: 3.9rem;
+  line-height: 20.76px;
+  letter-spacing: 0.18px;
+  padding: 21px 34px 22px 37px;
+  border-radius: 35px;
+  box-shadow: 0 5px 10px rgba(255, 57, 70, 0.15);
+  background-color: #ff3946;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  transition: all .2s linear;
+
+  &:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff3946;
+    color: #ff3946;
+  }
+}
+
+.more-btn.submit {
+  display: block;
+  margin: 0 auto;
+}
+
+.get-btn {
+  color: #314584;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 20.76px;
+  letter-spacing: 0.18px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all .2s linear;
+
+  &:hover {
+    color: #ff3946;
+  }
+}
+
+
+.social__icon {
+  fill: #ffffff;
+  width: 30px;
+  height: 35px;
+  transition: fill .2s linear;
+  margin: 0 4rem;
+
+  transition: all .2s linear;
+
+  &:hover {
+    fill: #ff3946;
+  }
+  @media (max-width:768px) {
+    margin: 0 2rem;
+  }
+}
+
+.btn {
+  display: block;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-family: 'Lato Regular', sans-serif;
+  border: 1px solid #314584;
+  background-color: #ff3946;
+  color: #ffffff;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color .2s linear, background-color .2s linear;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #ff3946;
+    border: 1px solid #ff3946;
+  }
+}
